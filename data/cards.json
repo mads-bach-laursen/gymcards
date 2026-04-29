@@ -1,75 +1,2709 @@
 {
   "categories": {
-    "E": { "name": "Energi", "color": "#1D9E75" },
-    "F": { "name": "Force",  "color": "#0077B6" },
-    "P": { "name": "Power",  "color": "#FFB703" }
+    "E": {
+      "name": "Gymnastiklege",
+      "color": "#1D9E75"
+    },
+    "F": {
+      "name": "Opvarmning",
+      "color": "#0077B6"
+    },
+    "P": {
+      "name": "Gul",
+      "color": "#FFB703"
+    }
   },
   "cards": [
     {
       "id": "E1",
       "category": "E",
-      "title": "Squat Jump",
-      "subtitle": "Eksplosiv benstyrke",
+      "title": "Pind-Kugle-Kryds legen",
       "image": "images/E1.jpg",
-      "description": "Stå med fødderne i hoftebreddes afstand. Gå ned i squat og spring eksplosivt op. Land blødt og gentag.",
-      "duration": "30 sek",
-      "level": "Begynder",
-      "tags": ["ben", "kondi", "eksplosiv"]
+      "description": "Kommando- og reaktionsleg hvor instruktøren råber positioner og gymnasterne udfører dem så korrekt og hurtigt som muligt. Kan bruges til opvarmning, redskabsaktiviteter, rytmetræning og som slutaktivitet.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "2–99"
+        },
+        {
+          "label": "Alder",
+          "value": "2–14 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "2–4"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Kommandoer",
+          "text": "PIND · KUGLE · KRYDS · SUPERMAND · SEJTKRYDS · LILLEPIND · VIPPE · VUGGE · SATELLIT · BRO"
+        },
+        {
+          "label": "Regel",
+          "text": "Udfør positionen så korrekt og hurtigt som muligt"
+        },
+        {
+          "label": "Varianter",
+          "text": "Instruktøren kan vise med billeder eller bruge terninger i stedet for at råbe"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk og motorisk"
+      },
+      "pills": [
+        "2–14 år",
+        "Niveau 2–4"
+      ]
     },
     {
       "id": "E2",
       "category": "E",
-      "title": "Mountain Climbers",
-      "subtitle": "Puls og core",
+      "title": "Sure sokker",
       "image": "images/E2.jpg",
-      "description": "Start i planken. Træk skiftevis knæene ind mod brystet i hurtigt tempo.",
-      "duration": "45 sek",
-      "level": "Let øvet",
-      "tags": ["core", "kondi"]
+      "description": "De sure sokker skal undgå at blive vasket af vaskemaskinerne. Træner udstrækning og sammenlukning – alle muskler i forside og bagside.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–30"
+        },
+        {
+          "label": "Alder",
+          "value": "6–99 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "3"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Start",
+          "text": "Sure sokker ligger på siden i den ene ende. Vaskemaskiner (1–2) står i midten"
+        },
+        {
+          "label": "Sure sokker",
+          "text": "Stræk dig helt ud og luk sammen til kugle mens du siger \"sure sokker, sure sokker...\""
+        },
+        {
+          "label": "Vaskemaskine",
+          "text": "Drej rundt og sig \"vaske, vaske, vaske...\""
+        },
+        {
+          "label": "Vasketid",
+          "text": "Spilstyreren råber \"SÅ ER DET VASKETID\" – sokker løber til den anden side"
+        },
+        {
+          "label": "Fanget",
+          "text": "Fanges af vaskemaskinen → bliver selv til vaskemaskine"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk"
+      },
+      "pills": [
+        "6–99 år",
+        "Niveau 3"
+      ]
+    },
+    {
+      "id": "E3",
+      "category": "E",
+      "title": "Mariehønefanger",
+      "image": "images/E3.jpg",
+      "description": "Fangeleg der træner forsidespændingen i lukkede rotationer. Mariehønsene flyver rundt – fanges man, skal man ligge på ryggen og sprælle til en anden frigiver en.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 3 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Roller",
+          "text": "Vælg mariehønefangere – alle andre er mariehøns"
+        },
+        {
+          "label": "Fanget",
+          "text": "Bliv fanget → lig på ryggen og spræl med arme og ben"
+        },
+        {
+          "label": "Fri",
+          "text": "En levende mariehøne skubber til den fangede → den kan vende sig om og er fri"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk, social, sansemotorisk"
+      },
+      "pills": [
+        "Fra 3 år",
+        "Niveau 2"
+      ]
+    },
+    {
+      "id": "E4",
+      "category": "E",
+      "title": "Hajen kommer",
+      "image": "images/E4.jpg",
+      "description": "Hajerne fanger guldfiskene. Guldfiskene starter i supermand-position og svømmer med arme og ben. Træner rygmuskulatur, puls samt rum- og retningsforståelse.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 3 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Start",
+          "text": "Alle guldfisk ligger skulder ved skulder på en streg i supermand-position"
+        },
+        {
+          "label": "Svøm",
+          "text": "Bevæg arme og ben op og ned og sig \"blob, blob, blob\""
+        },
+        {
+          "label": "Hajen kommer",
+          "text": "Træneren råber – alle guldfisk løber til modsatte side"
+        },
+        {
+          "label": "Fanget",
+          "text": "Fanges af hajen → bliv til haj"
+        },
+        {
+          "label": "Gentag",
+          "text": "Guldfiskene lægger sig på ny streg og legen fortsætter modsat retning"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Bagsidespænding, puls, rum- og retning"
+      },
+      "pills": [
+        "Fra 3 år",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "E5",
+      "category": "E",
+      "title": "Tæl til tre med pind-kugle-kryds",
+      "image": "images/E5.jpg",
+      "description": "Aktiv pause der kræver koncentration men giver også anledning til et grin. Stå to og to overfor hinanden og tæl skiftevis – gradvist erstattes tallene med kropspositioner.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "2–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 0. klasse"
+        },
+        {
+          "label": "Niveau",
+          "value": "1–4"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Niveau 1",
+          "text": "A siger 1, B siger 2, A siger 3, B siger 1 osv."
+        },
+        {
+          "label": "Niveau 2",
+          "text": "Tallet 1 erstattes af positionen \"Pind\" (strakte arme over hovedet)"
+        },
+        {
+          "label": "Niveau 3",
+          "text": "Tallet 2 erstattes af \"Kugle\" – tallet 3 siges stadig"
+        },
+        {
+          "label": "Niveau 4",
+          "text": "Tallet 3 erstattes af \"Kryds\" – A: Pind · B: Kugle · A: Kryds"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk og kognitivt"
+      },
+      "pills": [
+        "Fra 0. klasse",
+        "Niveau 1–4"
+      ]
+    },
+    {
+      "id": "E6",
+      "category": "E",
+      "title": "Rytme-tafat",
+      "image": "images/E6.jpg",
+      "description": "Fangeleg der sætter gang i kreativiteten. Gymnasterne finder et personligt dansetrin – når man fanges, danser man det indtil en anden kommer og gentager det 3 gange.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "8–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 0. klasse"
+        },
+        {
+          "label": "Niveau",
+          "value": "2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Forberedelse",
+          "text": "Giv holdet ½ minut til at finde et dansetrin med personligt præg"
+        },
+        {
+          "label": "Fanget",
+          "text": "Bliv fanget → dans dit trin kontinuerligt"
+        },
+        {
+          "label": "Fri",
+          "text": "En anden gymnast laver dit trin 3 gange → du er fri igen"
+        },
+        {
+          "label": "Variation",
+          "text": "Brug kendte øvelser fra en gymnastikserie i stedet for et opfundet trin"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk"
+      },
+      "pills": [
+        "Fra 0. klasse",
+        "Niveau 2"
+      ]
+    },
+    {
+      "id": "E8",
+      "category": "E",
+      "title": "Kongens efterfølger",
+      "image": "images/E8.jpg",
+      "description": "Den forreste i rækken er konge og bestemmer hvor og hvordan rækken bevæger sig. De andre følger efter og efteraber kongens bevægelser. Instruktøren kan give bevægelsesideer på forhånd.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "3–50"
+        },
+        {
+          "label": "Alder",
+          "value": "3–12 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Grupper",
+          "text": "Del i grupper på 3–5 gymnaster"
+        },
+        {
+          "label": "Kongen",
+          "text": "Den forreste bestemmer retning og bevægelsesstil"
+        },
+        {
+          "label": "Følgere",
+          "text": "Alle andre efteraber kongens bevægelser præcist"
+        },
+        {
+          "label": "Skift",
+          "text": "Kongen kan skifte – giv gerne bevægelsesideer som inspiration"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Kognitivt, socialt, emotionelt"
+      },
+      "pills": [
+        "3–12 år",
+        "Niveau 2"
+      ]
+    },
+    {
+      "id": "E9",
+      "category": "E",
+      "title": "Stopdans til musik",
+      "image": "images/E9.jpg",
+      "description": "Musikken og opgaverne tilpasses aldersgruppen. Inden musikken starter fortæller træneren hvad gymnasterne skal gøre når den stopper – derefter løber eller danser alle til musikken sættes på pause.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "—"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 2 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Forberedelse",
+          "text": "Fortæl hvad der sker når musikken stopper – fx \"stå på et ben\" eller \"sid på numsen\""
+        },
+        {
+          "label": "Dans",
+          "text": "Musikken sættes i gang – alle løber eller danser frit"
+        },
+        {
+          "label": "Stop",
+          "text": "Musikken stoppes – alle udfører opgaven"
+        },
+        {
+          "label": "Ny runde",
+          "text": "Giv ny opgave og start musikken igen"
+        },
+        {
+          "label": "Variation",
+          "text": "Brug redskabsgenkendelse: sæt panden på plint, ryggen på måtte, fod på trampolin"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk, sansemotorisk, kognitiv"
+      },
+      "pills": [
+        "Fra 2 år",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "E25",
+      "category": "E",
+      "title": "Sprællemands fanger",
+      "image": "images/E25.jpg",
+      "description": "Udvikling af ståtrold. Gymnasterne skal holde øje med fangeren og de fangede deltagere. Øvelsen kan skiftes ud med hvad som helst.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 4 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Fanget",
+          "text": "Bliv fanget → lav sprællemandshop kontinuerligt"
+        },
+        {
+          "label": "Befrielse",
+          "text": "En fri deltager laver 5 sprællemandshop SAMMEN med den fangede → fri"
+        },
+        {
+          "label": "Variation",
+          "text": "Skift sprællemand ud med en anden øvelse efter eget valg"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk, social"
+      },
+      "pills": [
+        "Fra 4 år",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "E31",
+      "category": "E",
+      "title": "Vælt en ko",
+      "image": "images/E31.jpg",
+      "description": "Styrke- og kampleg hvor samarbejde er afgørende. 3 gymnaster danner koen, den 4. er kovælter og skal løbe ind og skubbe koen omkuld.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "Mindst 4"
+        },
+        {
+          "label": "Alder",
+          "value": "Alle aldre"
+        },
+        {
+          "label": "Niveau",
+          "value": "4"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Koen",
+          "text": "3 gymnaster stiller sig tæt i cirkel med armene om hinanden – hold godt fast"
+        },
+        {
+          "label": "Kovælter",
+          "text": "Den 4. person skal vælte de 3 – der skal virkelig løbes og skubbes"
+        },
+        {
+          "label": "Variation",
+          "text": "Falsk yver: en i koen er hemmeligt på kovælterens side – kun han ved det"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk, social, emotionel"
+      },
+      "pills": [
+        "Alle aldre",
+        "Niveau 4"
+      ]
+    },
+    {
+      "id": "E32",
+      "category": "E",
+      "title": "Udbryderkonge og indbrudstyv",
+      "image": "images/E32.jpg",
+      "description": "To runder med modsatte mål. Træner samarbejde og udfordrer stillingsansen, følesansen og labyrintsansen. Grupper på 6–8.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "6–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 0. klasse"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Runde 1",
+          "text": "Udbryderkongen stiller sig i midten – skal forsøge at slippe ud af kredsen"
+        },
+        {
+          "label": "Kredsen",
+          "text": "De andre holder udbryderkongen inde – slipper han ud, vælges ny konge"
+        },
+        {
+          "label": "Runde 2",
+          "text": "Indbrudstyven står UDEN for og skal forsøge at trænge IND i midten"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk og sansemotorisk"
+      },
+      "pills": [
+        "Fra 0. klasse",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "E33",
+      "category": "E",
+      "title": "VIP & Bodyguard",
+      "image": "images/E33.jpg",
+      "description": "En fan forsøger at røre VIP'en – bodyguards skal forhindre det. Eneste regel: pas på hinanden.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "5–30"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 7 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "3"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Roller",
+          "text": "Vælg én fan og én VIP – resten er bodyguards"
+        },
+        {
+          "label": "Kredsen",
+          "text": "Bodyguards danner kreds om VIP'en"
+        },
+        {
+          "label": "Mål",
+          "text": "Fanens mål: røre VIP · Bodyguards mål: forhindre det til enhver tid"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk, social"
+      },
+      "pills": [
+        "Fra 7 år",
+        "Niveau 3"
+      ]
+    },
+    {
+      "id": "E34",
+      "category": "E",
+      "title": "Træk og skub",
+      "image": "images/E34.jpg",
+      "description": "Dysteøvelser to og to. Sjovest når deltagerne passer sammen i højde og drøjde.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "2–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 0. klasse"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Håndtræk",
+          "text": "Stå på hver side af en streg, hold fast i modstanderens hånd – træk over stregen"
+        },
+        {
+          "label": "Mavegreb",
+          "text": "Stå bag modstanderen og hold om maven – forsøg at holde ham tilbage"
+        },
+        {
+          "label": "Balance",
+          "text": "Stå på et ben, håndflader mod hinanden – skub modstanderen ud af balance"
+        },
+        {
+          "label": "Ryg mod ryg",
+          "text": "Sid ryg mod ryg – skub makkeren væk"
+        },
+        {
+          "label": "Planke",
+          "text": "I planke skulder mod skulder – skub modstanderen væk"
+        },
+        {
+          "label": "Fodskub",
+          "text": "Sid overfor med fødder mod fødder, løft hænder og fødder – skub med benene"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk"
+      },
+      "pills": [
+        "Fra 0. klasse",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "E35",
+      "category": "E",
+      "title": "Ninja skole",
+      "image": "images/E35.jpg",
+      "description": "To ninjaer dyster mod hinanden. Træneren er ninjamester. Ninjaerne lægger sig i soveposition – når ninjamesteren siger væk, hopper de op med ninja-position og råb.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "2–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 6 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1–2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Dag 1",
+          "text": "Håndliggende – slå modstanderen flest gange over hænderne"
+        },
+        {
+          "label": "Dag 2",
+          "text": "Hold modstanderens hånd – slå modstanderen flest gange i numsen"
+        },
+        {
+          "label": "Dag 3",
+          "text": "Sid ryg mod ryg – skub den anden væk"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk"
+      },
+      "pills": [
+        "Fra 6 år",
+        "Niveau 1–2"
+      ]
+    },
+    {
+      "id": "E61",
+      "category": "E",
+      "title": "Lorteleg",
+      "image": "images/E61.jpg",
+      "description": "Alle mod alle – undgå at stå med lorten! Lorte kastes rundt og rammer man en, har man den til man rammer en anden. Musikken stoppes og dem med en lort får straf.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 4. klasse"
+        },
+        {
+          "label": "Niveau",
+          "value": "1–2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Rekvisitter",
+          "text": "T-shirt = slasket lort · Skumplint = stor lort · Skumbold = lille lort · Bamse = nuttet lort · Sjippetov = lang lort"
+        },
+        {
+          "label": "Leg",
+          "text": "Lorte kastes rundt – rammes du, har du lorten til du rammer en anden"
+        },
+        {
+          "label": "Straf",
+          "text": "Musikken stoppes → dem med en lort laver 10 mavebøjninger eller englehop"
+        }
+      ],
+      "music": "&#9834;Prutte, prutte, prutte – Onkel Reje",
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk"
+      },
+      "pills": [
+        "Fra 4. klasse",
+        "Niveau 1–2"
+      ]
+    },
+    {
+      "id": "E62",
+      "category": "E",
+      "title": "Kaptajnen kommer",
+      "image": "images/E62.jpg",
+      "description": "Kommandoleg på et sørøverskib. Instruktøren er styrmand – alle matroser er bange for kaptajnen og udfører kommandoer hurtigt og præcist.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "5–50"
+        },
+        {
+          "label": "Alder",
+          "value": "3–12 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "KAPTAJNEN KOMMER",
+          "text": "Alle står ret og gør honnør"
+        },
+        {
+          "label": "STYREBORD / BAGBORD",
+          "text": "Løb til venstre / højre side af legeområdet"
+        },
+        {
+          "label": "I MASTERNE",
+          "text": "Kravl op i ribberne"
+        },
+        {
+          "label": "TIL PUMPERNE",
+          "text": "Læg dig ned og lav armstrækninger"
+        },
+        {
+          "label": "TIL ÅRERNE",
+          "text": "Sid ned, lav maverulninger og ro"
+        },
+        {
+          "label": "KANONKUGLERNE FLYVER",
+          "text": "Læg dig ned på maven"
+        },
+        {
+          "label": "FIDO SKAL LUFTES",
+          "text": "Kravl rundt på hænder og fødder"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk, emotionel"
+      },
+      "pills": [
+        "3–12 år",
+        "Niveau 2"
+      ]
+    },
+    {
+      "id": "E63",
+      "category": "E",
+      "title": "Tøjklemme fangeleg",
+      "image": "images/E63.jpg",
+      "description": "Alle mod alle – stjæl tøjklemmer fra de andre. Man fortsætter selv om man mister alle sine klemmer. Gymnasterne sætter selv klemmerne fast der, hvor de vil have andre rører dem.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "8–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 4 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Forberedelse",
+          "text": "Alle får 3–4 tøjklemmer – sættes fast på tøjet"
+        },
+        {
+          "label": "Leg",
+          "text": "Løb i afgrænset område og stjæl klemmer fra de andre"
+        },
+        {
+          "label": "Stjålne klemmer",
+          "text": "Sæt straks de stjålne klemmer på dit eget tøj"
+        },
+        {
+          "label": "Regel",
+          "text": "Mister du alle klemmer → fortsæt og stjæl fra andre"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk og sansemotorisk"
+      },
+      "pills": [
+        "Fra 4 år",
+        "Niveau 2"
+      ]
+    },
+    {
+      "id": "E64",
+      "category": "E",
+      "title": "Ståtrold",
+      "image": "images/E64.jpg",
+      "description": "Fangeleg med højt aktivitetsniveau. Fanges man stiller man sig i bredstående – befries ved at en anden kravler mellem benene. Kan spilles med par.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 3 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Fanget",
+          "text": "Stå i bredstående – venter på at blive befriet"
+        },
+        {
+          "label": "Befrielse",
+          "text": "En fri gymnast kravler mellem den fangedes ben → fri"
+        },
+        {
+          "label": "Par-version",
+          "text": "Par holder hånd hele legen – fanget par danner bro, andet par løber under"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk"
+      },
+      "pills": [
+        "Fra 3 år",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "E65",
+      "category": "E",
+      "title": "Fange haler",
+      "image": "images/E65.jpg",
+      "description": "Alle får en hale (markeringsbånd) i bukselinningen. Alle er mod alle og forsøger at stjæle de andres haler. Fra skolealderen: man får kun ny hale hvis man stjæler den selv.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 2 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Start",
+          "text": "Alle får en hale sat i bukselinningen"
+        },
+        {
+          "label": "Leg",
+          "text": "Alle mod alle – stjæl andres haler"
+        },
+        {
+          "label": "Ny hale",
+          "text": "Yngste: få ekstra hale fra træneren · Skolealder: stjæl en for at få ny"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk"
+      },
+      "pills": [
+        "Fra 2 år",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "E66",
+      "category": "E",
+      "title": "RÆV & ULV fangeleg",
+      "image": "images/E66.jpg",
+      "description": "To fangere med forskellige regler: RÆVen fanger dem der er alene og grupper på tre. ULVen fanger dem der er alene og i par. Ingen er 100% fredet!",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 0. klasse"
+        },
+        {
+          "label": "Niveau",
+          "value": "4"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Fredning",
+          "text": "Danner par → fredet for ulven · Grupper på 3 → fredet for ræven"
+        },
+        {
+          "label": "Ræv",
+          "text": "Fanger alle alene OG grupper på tre"
+        },
+        {
+          "label": "Ulv",
+          "text": "Fanger alle alene OG par"
+        },
+        {
+          "label": "Fanget",
+          "text": "Overtag fanger-rollen"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk, overblik og samarbejde"
+      },
+      "pills": [
+        "Fra 0. klasse",
+        "Niveau 4"
+      ]
+    },
+    {
+      "id": "E67",
+      "category": "E",
+      "title": "Krammetagfat",
+      "image": "images/E67.jpg",
+      "description": "Fangeleg der kræver samarbejde og får pulsen op. Man undgår at blive fanget ved at kramme en anden – mave mod mave – og tælle til 10.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 3 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "3"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Helle",
+          "text": "Sæt din mave mod en andens mave og giv en krammer – tæl til 10"
+        },
+        {
+          "label": "Maks",
+          "text": "Man må kun stå og kramme imens man tæller til 10"
+        },
+        {
+          "label": "Fanget",
+          "text": "Overtag tørklædet og bliv ny fanger"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk og socialt"
+      },
+      "pills": [
+        "Fra 3 år",
+        "Niveau 3"
+      ]
+    },
+    {
+      "id": "E68",
+      "category": "E",
+      "title": "Hospitalsleg",
+      "image": "images/E68.jpg",
+      "description": "Fangeleg med samarbejde. Fangeren smitter de andre med sygdom. Syge lægger sig ned og kan kun blive raske når fire andre bærer dem til hospitalet (nedspringsmåtten).",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 0. klasse"
+        },
+        {
+          "label": "Niveau",
+          "value": "2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Hospital",
+          "text": "En nedspringsmåtte placeres midt på gulvet"
+        },
+        {
+          "label": "Smittes",
+          "text": "Fangeren rører dig → lig på ryggen"
+        },
+        {
+          "label": "Redning",
+          "text": "Fire gymnaster løfter og bærer dig til hospitalet – du er rask og med igen"
+        },
+        {
+          "label": "Sikkerhed",
+          "text": "Man kan ikke fanges på vej til hospitalet"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk og samarbejde"
+      },
+      "pills": [
+        "Fra 0. klasse",
+        "Niveau 2"
+      ]
+    },
+    {
+      "id": "E69",
+      "category": "E",
+      "title": "Politi & Røver",
+      "image": "images/E69.jpg",
+      "description": "To hold kæmper mod hinanden med kegler: Politiet rejser kegler op, Røverne vælter dem. Kan også laves med tøndebånd eller bolde.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–40"
+        },
+        {
+          "label": "Alder",
+          "value": "Alle aldre"
+        },
+        {
+          "label": "Niveau",
+          "value": "2–3"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Opsætning",
+          "text": "Kegler spredes ud – nogle op, nogle ned"
+        },
+        {
+          "label": "Politi",
+          "text": "Rejser faldne kegler op (kun med hænderne)"
+        },
+        {
+          "label": "Røvere",
+          "text": "Vælter stående kegler (kun med hænderne)"
+        },
+        {
+          "label": "Variation",
+          "text": "Skift til tøndebånd der drejes/stoppes, eller bolde der ruller/stoppes"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk og kondition"
+      },
+      "pills": [
+        "Alle aldre",
+        "Niveau 2–3"
+      ]
+    },
+    {
+      "id": "E91",
+      "category": "E",
+      "title": "Kunstner og skulptur",
+      "image": "images/E91.jpg",
+      "description": "To og to. A er kunstner og former B (modellervoks) til en skulptur med lukkede øjne. B husker formen, A retter ud igen – og B skal selv finde tilbage til skulpturen.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "8–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 6 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "3"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Form",
+          "text": "A former B med lukkede øjne til en skulptur"
+        },
+        {
+          "label": "Husk",
+          "text": "A siger \"Husk formen\""
+        },
+        {
+          "label": "Ret ud",
+          "text": "A retter B's krop ud igen"
+        },
+        {
+          "label": "Genskab",
+          "text": "B åbner øjnene og finder selv tilbage til skulpturens form"
+        },
+        {
+          "label": "Skift",
+          "text": "A og B bytter roller"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Sansemotorisk og socialt"
+      },
+      "pills": [
+        "Fra 6 år",
+        "Niveau 3"
+      ]
+    },
+    {
+      "id": "E92",
+      "category": "E",
+      "title": "Køb dit navn",
+      "image": "images/E92.jpg",
+      "description": "Navneleg til sæsonstart. Gå rundt og køb alle bogstaverne i dit navn ved at spørge andre gymnaster – prisen er en øvelse.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "8–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 12 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "4"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Spørg",
+          "text": "Find en gymnast og spørg om du kan købe et bogstav fra hendes navn"
+        },
+        {
+          "label": "Pris",
+          "text": "Prisen er fx 3 englehop – lav dem og fortsæt"
+        },
+        {
+          "label": "Mål",
+          "text": "Saml alle bogstaverne i dit eget navn"
+        },
+        {
+          "label": "Færdig",
+          "text": "Løb en omgang i salen og hjælp en anden med at samle bogstaver"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Social og kognitiv"
+      },
+      "pills": [
+        "Fra 12 år",
+        "Niveau 4"
+      ]
+    },
+    {
+      "id": "E93",
+      "category": "E",
+      "title": "Navneleg i kreds",
+      "image": "images/E93.jpg",
+      "description": "Sjov måde at lære hinandens navne på med stigende sværhedsgrad. Start simpelt, byg op til fulde navne med dyr, farver og øvelser.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "6–10 pr. kreds"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 4. klasse"
+        },
+        {
+          "label": "Niveau",
+          "value": "1–3"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Runde 1",
+          "text": "Hver siger sit navn – næste gentager alle tidligere navne"
+        },
+        {
+          "label": "Runde 2",
+          "text": "Navn + et dyr der starter med samme bogstav"
+        },
+        {
+          "label": "Runde 3",
+          "text": "Navn + dyr + farve der passer til dyret"
+        },
+        {
+          "label": "Runde 4",
+          "text": "Kast en bold til personen du siger – modtager siger sit navn"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Social og kognitiv"
+      },
+      "pills": [
+        "Fra 4. klasse",
+        "Niveau 1–3"
+      ]
+    },
+    {
+      "id": "E94",
+      "category": "E",
+      "title": "Vaskehal",
+      "image": "images/E94.jpg",
+      "description": "Gymnasterne sidder på knæ i to rækker og danner en vaskehal. Én gymnast ad gangen kravler igennem mens de andre vasker, gnider og klapper bilen.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "6–20"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 3 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Opsætning",
+          "text": "To rækker overfor hinanden – siddende på knæ"
+        },
+        {
+          "label": "Bilen",
+          "text": "En gymnast kravler ind i vaskehallen"
+        },
+        {
+          "label": "Vask",
+          "text": "De andre klapper, prikker og gnider bilen på ryggen"
+        },
+        {
+          "label": "Skift",
+          "text": "Når bilen er igennem, sætter den sig i rækken og er del af vaskehallen"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Social og sansemotorisk"
+      },
+      "pills": [
+        "Fra 3 år",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "E95",
+      "category": "E",
+      "title": "Mik & Mak",
+      "image": "images/E95.jpg",
+      "description": "Kommandoleg to og to. Den ene hedder Mik, den anden Mak. Træneren giver kommandoer og de to skal reagere hurtigt og korrekt.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "2–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 4 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1–2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Kommandoer",
+          "text": "Mik under Mak · Mak hop fire gange · Mak over Mik · Mik ned og sidde · Mak 2× rundt om Mik"
+        },
+        {
+          "label": "Hurtighed",
+          "text": "Udfør så hurtigt som muligt"
+        },
+        {
+          "label": "Variation",
+          "text": "Skift Mik/Mak-roller · lav egne kommandoer"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk og kognitivt"
+      },
+      "pills": [
+        "Fra 4 år",
+        "Niveau 1–2"
+      ]
+    },
+    {
+      "id": "E96",
+      "category": "E",
+      "title": "Robotleg",
+      "image": "images/E96.jpg",
+      "description": "To og to: én robotfører og én robot. Føreren starter bevægelser i robottens krop, går ud og sætter bevægelser i gang i andre robotter, og vender hjem for at se sin robot.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "2–50"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 7 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "3"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Roller",
+          "text": "En er robot, en er robotfører"
+        },
+        {
+          "label": "Start",
+          "text": "Robotføreren sætter robottens krop i gang med bevægelser"
+        },
+        {
+          "label": "Udvid",
+          "text": "Gå ud og tilføj/skift bevægelser i andre robotter"
+        },
+        {
+          "label": "Hjem",
+          "text": "Kom tilbage og se hvordan din robot har udviklet sig"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Kreativitet og kropsbevidsthed"
+      },
+      "pills": [
+        "Fra 7 år",
+        "Niveau 3"
+      ]
+    },
+    {
+      "id": "E97",
+      "category": "E",
+      "title": "Mærk en figur",
+      "image": "images/E97.jpg",
+      "description": "To og to. En former sin krop til en figur – den anden mærker formen med lukkede øjne og kopierer den med sin egen krop. Hele øvelsen foregår med lukkede øjne.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "2–30"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 8 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "4"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Form",
+          "text": "A former sin krop til en skulptur"
+        },
+        {
+          "label": "Mærk",
+          "text": "B mærker med lukkede øjne nøje hele figuren"
+        },
+        {
+          "label": "Kopiér",
+          "text": "B kopierer figuren med sin egen krop – stadig med lukkede øjne"
+        },
+        {
+          "label": "Skift",
+          "text": "Byt roller"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Sansemotorisk og socialt"
+      },
+      "pills": [
+        "Fra 8 år",
+        "Niveau 4"
+      ]
+    },
+    {
+      "id": "E98",
+      "category": "E",
+      "title": "Navneleg med tre bolde",
+      "image": "images/E98.jpg",
+      "description": "Stå i kreds og kast bolde rundt i et fast mønster. Sig navn på den du kaster til. Start med én bold, tilføj gradvist flere farver og sværere regler.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "Min. 5"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 0. klasse"
+        },
+        {
+          "label": "Niveau",
+          "value": "1–4"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Rød bold",
+          "text": "Kast rundt til alle – etablér et fast mønster, sig modtagerens navn"
+        },
+        {
+          "label": "Gul bold",
+          "text": "Tilføj gul – kastes i omvendt rækkefølge"
+        },
+        {
+          "label": "Blå bold",
+          "text": "Tilføj blå – kastes i tilfældig rækkefølge"
+        },
+        {
+          "label": "Max kaos",
+          "text": "Alle tre bolde i luften på én gang"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Koordinering, opmærksomhed og navne"
+      },
+      "pills": [
+        "Fra 0. klasse",
+        "Niveau 1–4"
+      ]
+    },
+    {
+      "id": "E99",
+      "category": "E",
+      "title": "Kaos",
+      "image": "images/E99.jpg",
+      "description": "Alle vælger en person de skal rundt om – træneren tæller ned fra 3 og alle udfører opgaven samtidigt. Nye øvelser tilføjes gradvist: rundt om, op over, under, frem og tilbage.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "Min. 8"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 7 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1–4"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Runde 1",
+          "text": "Vælg en person at løbe rundt om – tæl ned fra 3 – alle på én gang"
+        },
+        {
+          "label": "Runde 2",
+          "text": "Vælg en at hoppe over OG løb rundt om runde-1-personen"
+        },
+        {
+          "label": "Runde 3",
+          "text": "Tilføj endnu en øvelse – krav: ingen må tale"
+        },
+        {
+          "label": "Sværere",
+          "text": "Tilføj gradvist flere øvelser per runde"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Koordinering, overblik og reaktion"
+      },
+      "pills": [
+        "Fra 7 år",
+        "Niveau 1–4"
+      ]
+    },
+    {
+      "id": "E121",
+      "category": "E",
+      "title": "Den levende rullemåtte",
+      "image": "images/E121.jpg",
+      "description": "Gymnasterne ligger tæt skulder ved skulder på maven med armene over hovedet og danner tilsammen en levende rullemåtte. Én ad gangen triller fra den ene ende til den anden.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "5–15"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 3 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Opstilling",
+          "text": "Alle ligger på maven, skulder ved skulder, arme over hovedet"
+        },
+        {
+          "label": "Tril",
+          "text": "Én gymnast ad gangen triller hen over de andre"
+        },
+        {
+          "label": "Bliv del",
+          "text": "Når man er trillet, lægger man sig i enden og er del af rullemåtten igen"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Føle- og muskel-ledsansen, socialt"
+      },
+      "pills": [
+        "Fra 3 år",
+        "Niveau 2"
+      ]
+    },
+    {
+      "id": "E122",
+      "category": "E",
+      "title": "Baywatch",
+      "image": "images/E122.jpg",
+      "description": "Badegæster sidder rundt om en faldskærm og laver bølger. Hajer under faldskærmen trækker badegæster ned. Livreddere går rundt og redder dem der råber om hjælp.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–20"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 7 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "5"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Roller",
+          "text": "Badegæster sidder med ben under faldskærmen og laver bølger · 1–2 hajer underneath · 1–2 livreddere"
+        },
+        {
+          "label": "Haj",
+          "text": "Træk badegæster ned under faldskærmen"
+        },
+        {
+          "label": "Nødråb",
+          "text": "Kan du mærke en haj: ræk hænder op og råb på hjælp"
+        },
+        {
+          "label": "Redning",
+          "text": "Livreddere trækker truede badegæster væk fra faldskærmen"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Samarbejde og reaktion"
+      },
+      "pills": [
+        "Fra 7 år",
+        "Niveau 5"
+      ]
+    },
+    {
+      "id": "E123",
+      "category": "E",
+      "title": "Stjæle guld",
+      "image": "images/E123.jpg",
+      "description": "Grupper på 4–8 stjæler guldstykker (bolde/ærteposer) fra en fælles pulje og fra hinanden. To runder med forskelligt fokus.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "8–40"
+        },
+        {
+          "label": "Alder",
+          "value": "Alle aldre"
+        },
+        {
+          "label": "Niveau",
+          "value": "2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Opsætning",
+          "text": "Tøndebånd midt på gulvet med guld (bolde/ærteposer). Hver gruppe har eget tøndebånd"
+        },
+        {
+          "label": "Runde 1",
+          "text": "Hent ét stykke guld ad gangen fra midten – løb hurtigt"
+        },
+        {
+          "label": "Runde 2",
+          "text": "Nedtælling: stjæl nu guld fra ALLE andre grupper – alle på én gang"
+        },
+        {
+          "label": "Optæl",
+          "text": "Når uret ringer: stop og tæl jeres guld"
+        }
+      ],
+      "music": null,
+      "goal": {
+        "label": "Læringsmål",
+        "value": "Fysisk og strategisk"
+      },
+      "pills": [
+        "Alle aldre",
+        "Niveau 2"
+      ]
     },
     {
       "id": "F1",
       "category": "F",
-      "title": "Push-up",
-      "subtitle": "Klassisk overkrop",
+      "title": "Opvarmning til musik",
       "image": "images/F1.jpg",
-      "description": "Hænder under skuldrene, krop i lige linje. Sænk brystet mod gulvet og pres op igen.",
-      "duration": "10 reps",
-      "level": "Begynder",
-      "tags": ["bryst", "arme", "core"]
+      "description": "Fokus på kropspositioner, rum og retning. Eleverne veksler mellem at bevæge sig rundt mellem hinanden og lave øvelser på stedet.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "8–100"
+        },
+        {
+          "label": "Alder",
+          "value": "0.–3. klasse"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Gang (2 min)",
+          "text": "Gå rundt – hils med hånd/fod/ryg, pind high five, hop ud i kryds"
+        },
+        {
+          "label": "Krop (1.5 min)",
+          "text": "Rundsvingning med arme, kugle → pind, stå i kryds og vip side til side"
+        },
+        {
+          "label": "Hop (2 min)",
+          "text": "Gadedrengehop og sidehop, rytmeklap på lår og i hænder"
+        },
+        {
+          "label": "Styrke (1.5 min)",
+          "text": "Sejt kryds, kugleposition, supermand"
+        },
+        {
+          "label": "Løb (2.5 min)",
+          "text": "Følg tempoet: slæbende skridt → frisk gang → løb"
+        }
+      ],
+      "music": "&#9834;Hej Go'Dag · Wulle Wap · Tju Bang · Vi lukker døren op · Her er min mor",
+      "goal": null,
+      "pills": [
+        "0.–3. klasse",
+        "Niveau 1"
+      ]
     },
     {
       "id": "F2",
       "category": "F",
-      "title": "Pull-up",
-      "subtitle": "Ryg og biceps",
+      "title": "Se min hale",
       "image": "images/F2.jpg",
-      "description": "Hæng i en stang med overhåndsgreb. Træk dig op til hagen er over stangen.",
-      "duration": "5 reps",
-      "level": "Øvet",
-      "tags": ["ryg", "arme"]
+      "description": "Veksler mellem lette øvelser og fangeleg. Med de helt små kan fangelegen byttes ud med løb – på stregerne, eller med mor/far i hånden.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 4 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Optakt 1×8",
+          "text": "Stå bredstående, vip skiftevis højre/venstre"
+        },
+        {
+          "label": "Vers 2×8",
+          "text": "Hop + arme op og ned"
+        },
+        {
+          "label": "Omkvæd",
+          "text": "Twisthop · Drille hinanden (2×8 hver)"
+        },
+        {
+          "label": "Mellemspil 10×8",
+          "text": "Fangeleg"
+        },
+        {
+          "label": "Bro 1×8",
+          "text": "Samles på midten, vælg nye fangere – gentag alle øvelser"
+        }
+      ],
+      "music": "&#9834;\"Se min hale\" fra Fjolletrolden – Michael Back Jensen",
+      "goal": null,
+      "pills": [
+        "Fra 4 år",
+        "Niveau 1"
+      ]
     },
     {
-      "id": "P1",
-      "category": "P",
-      "title": "Deadlift",
-      "subtitle": "Hel-krops kraft",
-      "image": "images/P1.jpg",
-      "description": "Stå med fødderne under stangen. Bøj i hofter og knæ, grib stangen og rejs dig kontrolleret.",
-      "duration": "5 reps",
-      "level": "Øvet",
-      "tags": ["ryg", "ben", "styrke"]
+      "id": "F3",
+      "category": "F",
+      "title": "Grøntsagsgymnastik",
+      "image": "images/F3.jpg",
+      "description": "Veksler mellem lette svingøvelser og styrketræning. Tre grøntsager – rødbeder, gulerødder og kål – bliver til tre styrkeøvelser.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "4–100"
+        },
+        {
+          "label": "Alder",
+          "value": "3–8 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Rundsving",
+          "text": "Fri rundsving"
+        },
+        {
+          "label": "Rødbeder",
+          "text": "Bredstående, bøj dybt i knæ og sæt af i et højt hop"
+        },
+        {
+          "label": "Armsving",
+          "text": "Frem og tilbage – højre frem, venstre tilbage"
+        },
+        {
+          "label": "Gulerødder",
+          "text": "Sving op på hænder så godt du kan"
+        },
+        {
+          "label": "Pind/Kugle",
+          "text": "Stræk i pind, luk i kugle – kan blive til fejesving"
+        },
+        {
+          "label": "Kål",
+          "text": "Lig på ryggen i kugle, rul bagover og kom op i hug eller stående"
+        }
+      ],
+      "music": "&#9834;\"Grøntsagsgymnastik\" fra \"Smag for leg\" – Morten Musik",
+      "goal": null,
+      "pills": [
+        "3–8 år",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "F4",
+      "category": "F",
+      "title": "Myremarch",
+      "image": "images/F4.jpg",
+      "description": "Arbejder med rum og retning, samt at følge hinanden og musikken. Gymnasterne er små myrer der starter samlet midt på gulvet – en myretue.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 4 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Start",
+          "text": "Alle går rundt mellem hinanden i myretuen"
+        },
+        {
+          "label": "Koble på",
+          "text": "Læg hænderne på skulderne af en anden myre og følg efter"
+        },
+        {
+          "label": "Koble fra",
+          "text": "Myrerne kan frit løsrive sig og gå rundt på egen hånd igen"
+        }
+      ],
+      "music": "&#9834;\"Myremarch\" – Cykelmyggen og dansemyggen · Claus Ryskjær & Jesper Mechlenburg",
+      "goal": null,
+      "pills": [
+        "Fra 4 år",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "F5",
+      "category": "F",
+      "title": "Her er min mor",
+      "image": "images/F5.jpg",
+      "description": "Arbejdes med forskellige tempi. Gymnasterne følger tempoet i sangen og træner rum-retningsfornemmelse mens pulsen kommer op.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "1–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 6 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Langsomt",
+          "text": "Gå med langsomme, slæbende skridt"
+        },
+        {
+          "label": "Middel",
+          "text": "Gå i rask tempo"
+        },
+        {
+          "label": "Hurtigt",
+          "text": "Løb hurtigt"
+        }
+      ],
+      "music": "&#9834;\"Her er min mor\" fra Hemli' helikopter – Elisabeth",
+      "goal": null,
+      "pills": [
+        "Fra 6 år",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "F6",
+      "category": "F",
+      "title": "Sjov med sidehop",
+      "image": "images/F6.jpg",
+      "description": "Sidehop og drejninger i rækker. Gymnasterne trænes i samarbejde og i at følge musikkens takt og tempo, mens pulsen kommer op.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "4–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 0. klasse"
+        },
+        {
+          "label": "Niveau",
+          "value": "2–3"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Start",
+          "text": "Stå i rækker med 4–8, hold om hoften foran"
+        },
+        {
+          "label": "8–½–8",
+          "text": "8 sidehop · vend ½ omgang · 8 sidehop"
+        },
+        {
+          "label": "4–½–4",
+          "text": "4 sidehop · vend ½ omgang · 4 sidehop"
+        },
+        {
+          "label": "2–½–2",
+          "text": "2 sidehop · vend ½ omgang · 2 sidehop"
+        },
+        {
+          "label": "Afslutning",
+          "text": "8 sidehop · vend ½ · 4 sidehop · drej 1½ omgang · 4 sidehop"
+        }
+      ],
+      "music": "&#9834;\"I will love you monday\" – Aura",
+      "goal": null,
+      "pills": [
+        "Fra 0. klasse",
+        "Niveau 2–3"
+      ]
+    },
+    {
+      "id": "F7",
+      "category": "F",
+      "title": "Velkommen her",
+      "image": "images/F7.jpg",
+      "description": "Opvarmningssekvens der bruger kropspositionerne fra Pind-Kugle-Kryds-princippet kombineret med sangens tekst.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "10–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 3 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Forspil",
+          "text": "Gå på tæer med strakte arme (pind) → ned i bøjet knæ (kugle)"
+        },
+        {
+          "label": "Vers",
+          "text": "Pind – kugle – kryds. Gentag positionerne"
+        },
+        {
+          "label": "Omkvæd",
+          "text": "Klapper · vrikker · tramper · fjoller · vinker · tager hatten af og bukker · danser frit"
+        },
+        {
+          "label": "Mellemspil",
+          "text": "Pind på tæer → kugle i bøjet knæ – gentag vers og omkvæd"
+        }
+      ],
+      "music": "&#9834;\"Velkommen her\" – Michael Back",
+      "goal": null,
+      "pills": [
+        "Fra 3 år",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "F8",
+      "category": "F",
+      "title": "Pingo Pingvin",
+      "image": "images/F8.jpg",
+      "description": "Arbejdes med lette sving og basisøvelser. Alle vers afsluttes med ordet \"frys\" og et nys – gymnasterne fryser øvelsen, nyser, og en ny øvelse sættes i gang.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "1–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 3 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Sving 1",
+          "text": "Rundsving med venstre arm"
+        },
+        {
+          "label": "Sving 2",
+          "text": "Rundsving med højre arm"
+        },
+        {
+          "label": "Sving 3",
+          "text": "Sving skiftevis højre og venstre arm frem og tilbage"
+        },
+        {
+          "label": "Sving 4",
+          "text": "Fejesving"
+        },
+        {
+          "label": "Sving 5",
+          "text": "Parallelle sving fra side til side"
+        },
+        {
+          "label": "Sving 6",
+          "text": "Rundsving med begge arme"
+        }
+      ],
+      "music": null,
+      "goal": null,
+      "pills": [
+        "Fra 3 år",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "F9",
+      "category": "F",
+      "title": "Linedans til musik",
+      "image": "images/F9.jpg",
+      "description": "Opvarmningsleg til forældre-barn hold og børnehold i alderen 3–4 år. Sjippetov lægges i firkant på gulvet. Gymnasterne starter forskellige steder men går i samme retning.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "1–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 2 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Forspil",
+          "text": "Linedanserne træder op på linen"
+        },
+        {
+          "label": "Vers 1",
+          "text": "Gå på line"
+        },
+        {
+          "label": "Mellemspil",
+          "text": "Linedanserne står på et ben – husk at skifte"
+        },
+        {
+          "label": "Vers 2",
+          "text": "Hop fra side til side over linen. Prøv på et ben"
+        },
+        {
+          "label": "Mellemspil 2",
+          "text": "Gå på line modsatte vej rundt"
+        },
+        {
+          "label": "Præsentation",
+          "text": "Neje og pakke linen sammen"
+        }
+      ],
+      "music": "&#9834;\"Linedanser sangen\" – Michael Back",
+      "goal": null,
+      "pills": [
+        "Fra 2 år",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "F11",
+      "category": "F",
+      "title": "Opvarmning i kreds med opgaver på midten",
+      "image": "images/F11.jpg",
+      "description": "Holdet deles i to grupper (forældre/børn, drenge/piger o.l.). Det ene hold løber rundt om yderste cirkel, det andet laver styrkeøvelser i midtercirklen. Bytter plads når opgaven er løst.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "—"
+        },
+        {
+          "label": "Alder",
+          "value": "Alle aldre"
+        },
+        {
+          "label": "Niveau",
+          "value": "2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Runde 1",
+          "text": "Voksne: planke med benskift til 30 · Børn: kugle til pind 10×"
+        },
+        {
+          "label": "Runde 2",
+          "text": "Voksne: squat til 30 · Børn: englehop 10×"
+        },
+        {
+          "label": "Runde 3",
+          "text": "Voksne: armstrækninger 20× · Børn: helikopter (løft arme+ben) 10×"
+        },
+        {
+          "label": "Runde 4",
+          "text": "Voksne: squathop 12× · Børn: høje knæløft, tæl til 30"
+        },
+        {
+          "label": "Afslutning",
+          "text": "Voksne ligger i planke i cirkel – børn kravler ind under dem"
+        }
+      ],
+      "music": null,
+      "goal": null,
+      "pills": [
+        "Alle aldre",
+        "Niveau 2"
+      ]
+    },
+    {
+      "id": "F12",
+      "category": "F",
+      "title": "Tigerdyret",
+      "image": "images/F12.jpg",
+      "description": "Hoppe-styrkesekvens der får pulsen op og styrker muskulaturen. Musikken motiverer og lægger op til sjov og spas.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "—"
+        },
+        {
+          "label": "Alder",
+          "value": "—"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Optakt",
+          "text": "Gør klar til sprællemandshop"
+        },
+        {
+          "label": "Omkvæd",
+          "text": "Sprællemand (1–6) · Hop arme op/ned (7–8) · Løb rundt om dig selv (1–8)"
+        },
+        {
+          "label": "Vers 1+2",
+          "text": "Valgfri styrkeøvelse"
+        },
+        {
+          "label": "Mellemspil",
+          "text": "Hop med skiftevis h/v arm strakt over hovedet"
+        },
+        {
+          "label": "Afslutning",
+          "text": "Englehop 4(1–8) · Hop rundt om dig selv med arme over hovedet"
+        }
+      ],
+      "music": "&#9834;\"Super Duper Hop\" fra \"Fra alle os til alle jer\"",
+      "goal": null,
+      "pills": [
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "F13",
+      "category": "F",
+      "title": "Røde gummistøvler",
+      "image": "images/F13.jpg",
+      "description": "Øvelserne tager udgangspunkt i Pind-Kugle-Kryds-princippet. Gymnasterne ligger på maven i en rundkreds med hovederne ind mod midten.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "1–100"
+        },
+        {
+          "label": "Alder",
+          "value": "Fra 3 år"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "1. vers",
+          "text": "Lig på maven – stræk frem i pind og ud i kryds. Følspark"
+        },
+        {
+          "label": "Omkvæd",
+          "text": "Løb rundt mellem hinanden"
+        },
+        {
+          "label": "Mellemspil",
+          "text": "Mødes i kredsen igen"
+        },
+        {
+          "label": "2. vers",
+          "text": "Lig på ryggen – luk i kugle og stræk ud i pind. Følspark"
+        },
+        {
+          "label": "Omkvæd 2",
+          "text": "Løb rundt mellem hinanden"
+        },
+        {
+          "label": "Mellemspil 2",
+          "text": "Mødes på midten og hop rundt om hinanden"
+        }
+      ],
+      "music": "&#9834;\"Røde gummistøvler\" fra \"Den store Åh abe boks\"",
+      "goal": null,
+      "pills": [
+        "Fra 3 år",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "F14",
+      "category": "F",
+      "title": "Fødselsdagsfesten",
+      "image": "images/F14.jpg",
+      "description": "Gymnasterne laver øvelser der passer til deres fødselsdato. Fremstil 10 ark nummereret 0–9 med én øvelse og antal gentagelser på hvert. Har man fx fødselsdag 13.07.98 laves ark 1, 3, 0, 7, 9 og 8.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "—"
+        },
+        {
+          "label": "Alder",
+          "value": "Alle aldre"
+        },
+        {
+          "label": "Niveau",
+          "value": "1–3"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "0",
+          "text": "Høje knæløft 10×"
+        },
+        {
+          "label": "1",
+          "text": "Ned i hug (squat) 10×"
+        },
+        {
+          "label": "2",
+          "text": "Armstrækninger 10×"
+        },
+        {
+          "label": "3",
+          "text": "Løb fra kegle til kegle 4×"
+        },
+        {
+          "label": "4",
+          "text": "Mavebøjninger 10×"
+        },
+        {
+          "label": "5",
+          "text": "Længdespring med samlet fødder 5×"
+        },
+        {
+          "label": "6",
+          "text": "Planke – løft skiftevis højre/venstre arm 10×"
+        },
+        {
+          "label": "7",
+          "text": "Hug → planke → hug → stå 10×"
+        },
+        {
+          "label": "8",
+          "text": "Alle fire – løft knæene 2 cm og tæl til 30"
+        },
+        {
+          "label": "9",
+          "text": "Lig på maven, løft arme og ben frit 10×"
+        }
+      ],
+      "music": null,
+      "goal": null,
+      "pills": [
+        "Alle aldre",
+        "Niveau 1–3"
+      ]
+    },
+    {
+      "id": "F51",
+      "category": "F",
+      "title": "Gå-, løbe- og hoppeopgaver på rullemåtte",
+      "image": "images/F51.jpg",
+      "description": "Gymnasterne præsenteres for forskellige opgaver på en rullemåtte eller flexifilt. Udfør øvelserne så korrekt som muligt – ikke så hurtigt som muligt. Kan bruges som returbane til F52.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "—"
+        },
+        {
+          "label": "Alder",
+          "value": "Alle aldre"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Gå",
+          "text": "Tæer · hæle · yderside · inderside · skiftende 2 skridt på hver"
+        },
+        {
+          "label": "Hop",
+          "text": "Samlet afsæt frem/tilbage · sprællemandshop · skihop"
+        },
+        {
+          "label": "Kombination",
+          "text": "Sprællemand ben + skihop arme · skihop ben + sprællemand arme"
+        },
+        {
+          "label": "Hinkehop",
+          "text": "To på venstre, to på højre"
+        },
+        {
+          "label": "Koordinering",
+          "text": "Høje knæløft · klap under fod foran og bag kroppen"
+        },
+        {
+          "label": "Løb",
+          "text": "Spark i bagdelen · krydsløb"
+        }
+      ],
+      "music": null,
+      "goal": null,
+      "pills": [
+        "Alle aldre",
+        "Niveau 1"
+      ]
+    },
+    {
+      "id": "F52",
+      "category": "F",
+      "title": "Opvarmning på airtrack",
+      "image": "images/F52.jpg",
+      "description": "Kan tilpasses alle aldersgrupper og niveauer. Gymnasterne bevæger sig på langs af airtracket og kombinerer koordinering, puls og styrke.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "—"
+        },
+        {
+          "label": "Alder",
+          "value": "Alle aldre"
+        },
+        {
+          "label": "Niveau",
+          "value": "1–2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Hop",
+          "text": "Forlæns/baglæns med samlet fødder og arme over hovedet (pind)"
+        },
+        {
+          "label": "Knæ",
+          "text": "Hop og træk knæene op mod brystet"
+        },
+        {
+          "label": "Kravl",
+          "text": "Abekravl på hænder og fødder"
+        },
+        {
+          "label": "Planke",
+          "text": "Start i planke, gå/hop sidlæns"
+        },
+        {
+          "label": "Harehop",
+          "text": "Kom langt frem med hænderne, ben godt opad"
+        },
+        {
+          "label": "Rulle",
+          "text": "Forlæns rulle · hop zig-zag over midterlinjen"
+        },
+        {
+          "label": "Kanten",
+          "text": "Skiftevis fod på gulv og airtrack"
+        },
+        {
+          "label": "Kombination",
+          "text": "Kravl frem i planke, skub nummsen bagud, forlæns rulle – gentag"
+        }
+      ],
+      "music": null,
+      "goal": null,
+      "pills": [
+        "Alle aldre",
+        "Niveau 1–2"
+      ]
+    },
+    {
+      "id": "F53",
+      "category": "F",
+      "title": "Opvarmning med tæppefliser",
+      "image": "images/F53.jpg",
+      "description": "Bygget op omkring tæppefliser – puls og styrke alene og to og to. Gymnasterne starter i den ene side og laver øvelsen til den modsatte side og tilbage.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "—"
+        },
+        {
+          "label": "Alder",
+          "value": "Alle aldre"
+        },
+        {
+          "label": "Niveau",
+          "value": "1–2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Supermand",
+          "text": "Tæppeflisen på maven – løb så hurtigt at den sidder uden at holde fast"
+        },
+        {
+          "label": "Racerbil",
+          "text": "Gummisiden opad – hænder på flisen, arme strakte, skub frem med fødderne"
+        },
+        {
+          "label": "Larven",
+          "text": "Hugsiddende → ud i planke → fødderne ind igen"
+        },
+        {
+          "label": "Trillebør 2×1",
+          "text": "En holder hænder på flisen i strakt plankestilling, anden løfter benene"
+        },
+        {
+          "label": "Slædetur 2×1",
+          "text": "En sidder på flisen, anden trækker afsted i benene (eller hænder)"
+        },
+        {
+          "label": "Giftig jord 2×2",
+          "text": "Bevæg jer fremad uden at røre gulvet – kun de to tæppefliser til hjælp"
+        }
+      ],
+      "music": null,
+      "goal": null,
+      "pills": [
+        "Alle aldre",
+        "Niveau 1–2"
+      ]
+    },
+    {
+      "id": "F54",
+      "category": "F",
+      "title": "Opvarmning på rundbane og med klude",
+      "image": "images/F54.jpg",
+      "description": "Veksler mellem at bevæge sig rundt på redskaberne og fælles aktiviteter med klude. Byg en rundbane langs væggene – fri plads i midten til kludeøvelserne.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "—"
+        },
+        {
+          "label": "Alder",
+          "value": "Alle aldre"
+        },
+        {
+          "label": "Niveau",
+          "value": "1–2"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Runde 1 (60s)",
+          "text": "Rundt på banen i fuld fart"
+        },
+        {
+          "label": "Klude 1 (1.5 min)",
+          "text": "Klude under fødderne som skøjter · Fangeleg"
+        },
+        {
+          "label": "Runde 2 (60s)",
+          "text": "Rundt på banen i fuld fart"
+        },
+        {
+          "label": "Klude 2 (1.5 min)",
+          "text": "Kravl på hænder og fødder med klude under hænderne"
+        },
+        {
+          "label": "Runde 3 (60s)",
+          "text": "Rundt på banen i fuld fart"
+        },
+        {
+          "label": "Klude 3 (1.5 min)",
+          "text": "Klude under fødderne – Michael Jackson-bevægelser"
+        }
+      ],
+      "music": "&#9834;Lejren smadres (Tarzan) · Hun vil ha' en rapper (Jooks) · 3AM (Mads Langer) · Billie Jean (Michael Jackson)",
+      "goal": null,
+      "pills": [
+        "Alle aldre",
+        "Niveau 1–2"
+      ]
+    },
+    {
+      "id": "F55",
+      "category": "F",
+      "title": "Opvarmning med skumsværd",
+      "image": "images/F55.jpg",
+      "description": "Isoleringsrør / rørskåle bruges som sværd og rekvisit. Opvarmningen veksler mellem fri fægte-leg og fælles øvelser – brug musik til at signalere hvornår der fægtes.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "—"
+        },
+        {
+          "label": "Alder",
+          "value": "Alle aldre"
+        },
+        {
+          "label": "Niveau",
+          "value": "1"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Øvelse 1",
+          "text": "Læg sværdet på gulvet, hop fra side til side"
+        },
+        {
+          "label": "Øvelse 2",
+          "text": "Læg sværdet på gulvet, hop over frem og tilbage"
+        },
+        {
+          "label": "Øvelse 3",
+          "text": "Hold i begge ender, hop med armene skiftevis op og ned"
+        },
+        {
+          "label": "Øvelse 4",
+          "text": "Stå på sværdet med begge fødder, gå langsomt ned i knæ"
+        },
+        {
+          "label": "Øvelse 5",
+          "text": "Lig på maven med strakte arme, løft overkroppen, skift sværdet bag ryggen"
+        },
+        {
+          "label": "Øvelse 6",
+          "text": "Lig på ryggen med bøjet ben, løft overkroppen og før sværdet over knæene"
+        },
+        {
+          "label": "Øvelse 7",
+          "text": "Få sværdet til at balancere på en flad hånd"
+        }
+      ],
+      "music": null,
+      "goal": null,
+      "pills": [
+        "Alle aldre",
+        "Niveau 1"
+      ]
     },
     {
       "id": "P2",
       "category": "P",
-      "title": "Clean & Press",
-      "subtitle": "Olympisk løft",
+      "title": "Tøndebånd: Rotation om hånden",
       "image": "images/P2.jpg",
-      "description": "Træk stangen fra gulv til skuldre i én bevægelse, og pres derefter over hovedet.",
-      "duration": "3 reps",
-      "level": "Øvet",
-      "tags": ["fuldkrop", "eksplosiv"]
+      "description": "Sæt tøndebåndet i gang så det roterer om hånden. Øvelsen danner grundlag for en række andre øvelser. Husk at træne begge hænder.",
+      "badges": [
+        {
+          "label": "Deltagere",
+          "value": "—"
+        },
+        {
+          "label": "Alder",
+          "value": "Alle aldre"
+        },
+        {
+          "label": "Niveau",
+          "value": "—"
+        }
+      ],
+      "steps_heading": "Forløb",
+      "steps": [
+        {
+          "label": "Placering",
+          "text": "Tøndebåndet under tommelfingerens rod – i det bløde punkt mellem tommel- og pegefinger"
+        },
+        {
+          "label": "Stilling",
+          "text": "Arm let bøjet, vip i knæene, parallelle fødder"
+        },
+        {
+          "label": "Kast",
+          "text": "Send tøndebåndet afsted med strakt arm, grib og fortsæt rotation"
+        },
+        {
+          "label": "Sekvens",
+          "text": "Rotation om højre hånd (1–3) → stræk arm ud (4) → fortsæt rotation"
+        }
+      ],
+      "music": null,
+      "goal": null,
+      "pills": [
+        "Alle aldre"
+      ]
     }
   ]
 }

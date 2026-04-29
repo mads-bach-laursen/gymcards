@@ -4,25 +4,29 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>GymCards – Oversigt</title>
-  <meta name="description" content="Oversigt over alle GymCards træningskort." />
+  <meta name="description" content="GymCards – øvelser, lege og opvarmning til gymnastiktræning." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container" style="padding:0">
-      <a href="index.html"><h1>GymCards</h1></a>
-    </div>
-  </header>
-  <main class="container">
-    <div class="controls">
-      <input id="search" class="search" type="search" placeholder="Søg på titel, ID eller tag…" autocomplete="off" />
-      <div id="cat-tabs" class="cat-tabs"></div>
-    </div>
+  <div class="hero">
+    <div class="hero-eyebrow">gymnashop.dk</div>
+    <div class="hero-title">GymCards</div>
+    <div id="stats" class="hero-stats"></div>
+  </div>
+
+  <div id="filter-bar">
+    <span class="filter-label">Kategori</span>
+    <div id="cat-tabs" style="display:contents"></div>
+    <input id="search" class="search" type="search" placeholder="Søg…" autocomplete="off" />
+  </div>
+
+  <div class="content">
     <div id="grid" class="grid"></div>
-  </main>
+  </div>
+
   <script type="module" src="assets/app.js"></script>
 </body>
 </html>
