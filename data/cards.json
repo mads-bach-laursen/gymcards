@@ -2,15 +2,21 @@
   "categories": {
     "E": {
       "name": "Gymnastiklege",
-      "color": "#1D9E75"
+      "color": "#1D9E75",
+      "soft": "#e1f5ee",
+      "deep": "#085041"
     },
     "F": {
       "name": "Opvarmning",
-      "color": "#0077B6"
+      "color": "#0077B6",
+      "soft": "#e6f1fb",
+      "deep": "#042c53"
     },
     "P": {
       "name": "Gul",
-      "color": "#FFB703"
+      "color": "#FFB703",
+      "soft": "#fff9e6",
+      "deep": "#7a5500"
     }
   },
   "cards": [

@@ -5,84 +5,76 @@ const $root = document.getElementById('detail');
 const escape = (s = '') => String(s).replace(/[&<>"']/g, ch =>
   ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[ch]));
 
-// Light-tone pair for each category, for badges and steps-box.
-const CAT_TINT = {
-  E: { soft: '#e1f5ee', deep: '#085041' },
-  F: { soft: '#dbeefe', deep: '#053a6b' },
-  P: { soft: '#fff3d6', deep: '#7a4a00' },
-};
-
 function render(card, cat) {
-  const tint = CAT_TINT[card.category] || { soft: '#eee', deep: '#333' };
-  const onColor = card.category === 'P' ? '#1a1a1a' : '#fff';
-  const onColorDim = card.category === 'P' ? 'rgba(0,0,0,0.55)' : 'rgba(255,255,255,0.65)';
   document.title = `GymCard ${card.id} – ${card.title}`;
-  $root.dataset.cat = card.category;
-  $root.style.setProperty('--cat-color', cat.color);
-  $root.style.setProperty('--cat-soft', tint.soft);
-  $root.style.setProperty('--cat-deep', tint.deep);
-  $root.style.setProperty('--on-color', onColor);
-  $root.style.setProperty('--on-color-dim', onColorDim);
+  const onMain = card.category === 'P' ? '#1a1a1a' : '#fff';
+  const onMainDim = card.category === 'P' ? 'rgba(0,0,0,0.6)' : 'rgba(255,255,255,0.65)';
 
   const badges = (card.badges || []).map(b => `
-    <div class="badge">
-      <div class="badge-label">${escape(b.label)}</div>
-      <div class="badge-value">${escape(b.value)}</div>
+    <div class="badge" style="background:${cat.soft};">
+      <div class="badge-label" style="color:${cat.color};">${escape(b.label)}</div>
+      <div class="badge-value" style="color:${cat.deep};">${escape(b.value)}</div>
     </div>`).join('');
 
-  const steps = (card.steps || []).map(s => `
+  const stepRows = (card.steps || []).map(s => `
     <div class="step-row">
-      <div class="step-label">${escape(s.label)}</div>
+      <div class="step-label" style="color:${cat.color};">${escape(s.label)}</div>
       <div class="step-text">${escape(s.text)}</div>
     </div>`).join('');
 
-  const stepsBox = steps ? `
-    <div class="steps-box">
-      <div class="steps-heading">${escape(card.steps_heading || 'Forløb')}</div>
-      ${steps}
+  const stepsBox = stepRows ? `
+    <div class="steps-box" style="border-color:${cat.soft};">
+      <div class="steps-heading" style="background:${cat.soft};color:${cat.deep};">${escape(card.steps_heading || 'Forløb')}</div>
+      ${stepRows}
     </div>` : '';
 
-  const music = card.music ? `<div class="music-row">${escape(card.music)}</div>` : '';
+  const music = card.music ? `
+    <div class="music-row" style="background:${cat.soft};color:${cat.deep};border-left-color:${cat.color};">
+      ${escape(card.music)}
+    </div>` : '';
 
   const goal = card.goal ? `
-    <div class="goal-row">
-      <span class="goal-label">${escape(card.goal.label)}</span>
-      <span class="goal-value">${escape(card.goal.value)}</span>
+    <div class="goal-row" style="background:${cat.color};">
+      <span class="goal-label" style="color:${onMainDim};">${escape(card.goal.label)}</span>
+      <span class="goal-value" style="color:${onMain};">${escape(card.goal.value)}</span>
     </div>` : '';
 
   $root.innerHTML = `
-    <div class="photo-wrap">
-      <img src="${escape(card.image)}" alt="${escape(card.title)}" />
-      <div class="card-id-badge">${escape(card.id)}</div>
+    <div class="card">
+      <div class="photo-wrap">
+        <img src="${escape(card.image)}" alt="${escape(card.title)}" />
+        <div class="card-id-badge" style="background:${cat.color};color:${onMain};">${escape(card.id)}</div>
+      </div>
+      <div class="card-header" style="background:${cat.color};">
+        <div class="card-header-label" style="color:${onMainDim};">GymCard · Kategori ${escape(card.category)}</div>
+        <div class="card-title" style="color:${onMain};">${escape(card.title)}</div>
+      </div>
+      ${card.description ? `<p class="desc">${escape(card.description)}</p>` : ''}
+      ${badges ? `<div class="badges">${badges}</div>` : ''}
+      ${stepsBox}
+      ${music}
+      ${goal}
+      <div class="footer">GymCards® · gymnashop.dk</div>
     </div>
-    <div class="card-header">
-      <div class="card-header-label">GymCard · Kategori ${escape(card.category)}</div>
-      <div class="card-title">${escape(card.title)}</div>
-    </div>
-    ${card.description ? `<p class="desc">${escape(card.description)}</p>` : ''}
-    ${badges ? `<div class="badges">${badges}</div>` : ''}
-    ${stepsBox}
-    ${music}
-    ${goal}
-    <div class="footer">GymCards® · gymnashop.dk</div>
+    <a class="back-link" href="index.html">← Tilbage til alle kort</a>
   `;
 }
 
 (async () => {
   const id = new URLSearchParams(location.search).get('id');
   if (!id) {
-    $root.innerHTML = `<div class="msg"><h1>Mangler kort-ID</h1><p>Brug fx <code>card.html?id=E1</code>.</p></div>`;
+    $root.innerHTML = `<div style="padding:40px;text-align:center;">Mangler kort-ID. Brug fx <code>card.html?id=E1</code>.</div>`;
     return;
   }
   try {
     const data = await loadData();
     const card = data.cards.find(c => c.id.toLowerCase() === id.toLowerCase());
     if (!card) {
-      $root.innerHTML = `<div class="msg"><h1>Kort ikke fundet</h1><p>ID <code>${escape(id)}</code> findes ikke.</p></div>`;
+      $root.innerHTML = `<div style="padding:40px;text-align:center;">Kort <code>${escape(id)}</code> findes ikke.</div>`;
       return;
     }
-    render(card, data.categories[card.category] || { name: card.category, color: '#666' });
+    render(card, data.categories[card.category]);
   } catch (err) {
-    $root.innerHTML = `<div class="msg"><h1>Fejl</h1><p>${escape(err.message)}</p></div>`;
+    $root.innerHTML = `<div style="padding:40px;text-align:center;">${escape(err.message)}</div>`;
   }
 })();

@@ -19,12 +19,16 @@
 
   <div id="filter-bar">
     <span class="filter-label">Kategori</span>
-    <div id="cat-tabs" style="display:contents"></div>
-    <input id="search" class="search" type="search" placeholder="Søg…" autocomplete="off" />
+    <div id="filter-buttons" style="display:contents"></div>
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" id="search" placeholder="Søg kort..." />
+    </div>
   </div>
 
   <div class="content">
-    <div id="grid" class="grid"></div>
+    <div id="sections"></div>
+    <div class="empty" id="empty">Ingen kort matcher</div>
   </div>
 
   <script type="module" src="assets/app.js"></script>
