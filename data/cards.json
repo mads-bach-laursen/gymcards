@@ -1,0 +1,75 @@
+{
+  "categories": {
+    "E": { "name": "Energi", "color": "#1D9E75" },
+    "F": { "name": "Force",  "color": "#0077B6" },
+    "P": { "name": "Power",  "color": "#FFB703" }
+  },
+  "cards": [
+    {
+      "id": "E1",
+      "category": "E",
+      "title": "Squat Jump",
+      "subtitle": "Eksplosiv benstyrke",
+      "image": "images/E1.jpg",
+      "description": "Stå med fødderne i hoftebreddes afstand. Gå ned i squat og spring eksplosivt op. Land blødt og gentag.",
+      "duration": "30 sek",
+      "level": "Begynder",
+      "tags": ["ben", "kondi", "eksplosiv"]
+    },
+    {
+      "id": "E2",
+      "category": "E",
+      "title": "Mountain Climbers",
+      "subtitle": "Puls og core",
+      "image": "images/E2.jpg",
+      "description": "Start i planken. Træk skiftevis knæene ind mod brystet i hurtigt tempo.",
+      "duration": "45 sek",
+      "level": "Let øvet",
+      "tags": ["core", "kondi"]
+    },
+    {
+      "id": "F1",
+      "category": "F",
+      "title": "Push-up",
+      "subtitle": "Klassisk overkrop",
+      "image": "images/F1.jpg",
+      "description": "Hænder under skuldrene, krop i lige linje. Sænk brystet mod gulvet og pres op igen.",
+      "duration": "10 reps",
+      "level": "Begynder",
+      "tags": ["bryst", "arme", "core"]
+    },
+    {
+      "id": "F2",
+      "category": "F",
+      "title": "Pull-up",
+      "subtitle": "Ryg og biceps",
+      "image": "images/F2.jpg",
+      "description": "Hæng i en stang med overhåndsgreb. Træk dig op til hagen er over stangen.",
+      "duration": "5 reps",
+      "level": "Øvet",
+      "tags": ["ryg", "arme"]
+    },
+    {
+      "id": "P1",
+      "category": "P",
+      "title": "Deadlift",
+      "subtitle": "Hel-krops kraft",
+      "image": "images/P1.jpg",
+      "description": "Stå med fødderne under stangen. Bøj i hofter og knæ, grib stangen og rejs dig kontrolleret.",
+      "duration": "5 reps",
+      "level": "Øvet",
+      "tags": ["ryg", "ben", "styrke"]
+    },
+    {
+      "id": "P2",
+      "category": "P",
+      "title": "Clean & Press",
+      "subtitle": "Olympisk løft",
+      "image": "images/P2.jpg",
+      "description": "Træk stangen fra gulv til skuldre i én bevægelse, og pres derefter over hovedet.",
+      "duration": "3 reps",
+      "level": "Øvet",
+      "tags": ["fuldkrop", "eksplosiv"]
+    }
+  ]
+}
